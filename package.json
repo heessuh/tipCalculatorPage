@@ -1,0 +1,16 @@
+{
+  "name": "tipcalculatorpage",
+  "version": "1.0.0",
+  "description": "simple webpage that takes inputs for check amount, number of peple and tip percentage and displays the amount owed per person. Vanilla JavaScript with HTML and CSS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
