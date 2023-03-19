@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <container class="container">
+      <form>
+        <h2>Tip Calculator</h2>
+        <br /><br />
+        <label for="check">Check Value:</label>
+        <input type="number" id="check" name="check" required /><br /><br />
+        <label for="people">Number of People:</label>
+        <input type="number" id="people" name="people" required /><br /><br />
+        <label for="tip">Tip Percentage:</label>
+        <input type="number" id="tip" name="tip" required /><br /><br />
+        <button type="button" onclick="calculate()">Calculate</button>
+        <br />
+        <br />
+        <label for="result">Amount per Person:</label>
+        <input type="number" id="result" name="result" />
+      </form>
+      <br /><br />
+      <button id="reset" type="submit" onclick="reset()">Reset</button>
+    </container>
+
+    <script type="text/javascript" src="script.js" defer></script>
+  </body>
+</html>
